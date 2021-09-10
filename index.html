@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YATRA TRAVELS</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container-fluid onlybg">
+	<div class="row">
+		<div class="col-6">
+			 <br/>
+			<section class="f7">Book Taxi Now</section>
+			<section class="und3">________________</section>
+
+			<form action="mail.php" method="post">
+				<div class="d-flex inputclass">
+					<div class="f8">Your Name*</div>
+					<div class="col-8">
+						<input type="text" class="form-control" id="txtName" name="txtName" placeholder="Enter your full Name" required="">
+					</div>
+				</div>
+				<div class="d-flex inputclass1">
+					<div class="f8">Your Email*</div>
+					<div class="col-8">
+						<input type="email" class="form-control" id="txtEmail" placeholder="Enter your Email" name="txtEmail" required="">
+					</div>
+				</div>
+				<div class="d-flex inputclass2">
+					<div class="f8">When*</div>
+					<div class="col-8">
+						<input type="date" class="form-control" id="app_date" name="app_date" required="">
+					</div>
+				</div>
+				<div class="d-flex inputclass3">
+					<div class="f8">Start Destination*</div>
+					<div class="col-8">
+						<input type="text" class="form-control" id="strtDest" name="strtDest" placeholder="Start Destination" required="">
+					</div>
+				</div>
+				<div class="d-flex inputclass4">
+					<div class="f8">End Destination*</div>
+					<div class="col-8">
+						<input type="text" class="form-control" id="endDest" name="endDest" placeholder="End Destination" required="">
+					</div>
+				</div>
+				<div class="d-flex inputclass5">
+					<div class="f8">Choose Vehicle*</div>
+					<div class="col-8">
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m1" id="selVehicle" name="selVehicle" value="Toyota Innova">&nbsp;Toyota Innova</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m2" id="selVehicle" name="selVehicle" value="Toyota Innova Crysta">&nbsp;Toyota Innova Crysta</label>
+	                      	</div>
+						</div>
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m3" id="selVehicle" name="selVehicle" value="Swift Dzire">&nbsp;Swift Dzire</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m4" id="selVehicle" name="selVehicle" value="Ertiga(CNG)">&nbsp;Ertiga(CNG)</label>
+	                      	</div>
+						</div>
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m5" id="selVehicle" name="selVehicle" value="Honda Amaze">&nbsp;Honda Amaze</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m6" id="selVehicle" name="selVehicle" value="Honda City">&nbsp;Honda City</label>
+	                      	</div>
+						</div>
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m7" id="selVehicle" name="selVehicle" value="Tempo Traveller">&nbsp;Tempo Traveller</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m8" id="selVehicle" name="selVehicle" value="Toyota Fortuner">&nbsp;Toyota Fortuner</label>
+	                      	</div>
+						</div>
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m9" id="selVehicle" name="selVehicle" value="BMW">&nbsp;BMW</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m10" id="selVehicle" name="selVehicle" value="Audi">&nbsp;Audi</label>
+	                      	</div>
+						</div>
+						<div class="d-flex">
+							<div class="radio">
+	                        	<label><input type="radio" class="m11" id="selVehicle" name="selVehicle" value="Mercedes Benz">&nbsp;Mercedes Benz</label>
+	                      	</div>
+							<div class="radio">
+	                        	<label><input type="radio" class="m12" id="selVehicle" name="selVehicle" value="Luxury Bus">&nbsp;Luxury Bus</label>
+	                      	</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex inputclass6">
+					<div class="f8">Phone*</div>
+					<div class="col-8">
+						<input type="tel" class="form-control" id="txtContactNo" name="txtContactNo" placeholder="Enter your Mobile No." required="">
+					</div>
+				</div>
+				<div class="submitbtn">
+					<button type="submit" id="submit" value="Submit Request" class="btn btn-submit">Book now</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-6">
+			<img class="img3" src="girl.png">
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
