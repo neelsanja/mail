@@ -12,7 +12,7 @@ $number= $_POST['txtContactNo'];
 $to = "neelsanja001@gmail.com";
 $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n When =" . $when;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
+$headers = "From: arjunpatel2755@gmail.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
